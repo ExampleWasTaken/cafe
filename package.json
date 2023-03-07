@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=development rollup --bundleConfigAsCjs -c -w",
-    "build": "cross-env NODE_ENV=production rollup --bundleConfigAsCjs -c",
-    "deploy": "npm run build && gh-pages -d public"
+    "build": "cross-env NODE_ENV=production rollup --bundleConfigAsCjs -c"
   },
   "keywords": [],
   "author": "",
