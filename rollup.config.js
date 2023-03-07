@@ -19,7 +19,8 @@ export default {
   plugins: [
     copy({
       targets: [
-        { src: 'src/index.html', dest: 'public/' },
+        { src: 'src/index.html', dest: 'public' },
+        { src: 'assets', dest: 'public' },
       ],
     }),
     resolve({
@@ -41,8 +42,9 @@ export default {
     isDev && serve({
       contentBase: 'public/',
       port: 3000,
+      open: true,
     }),
-    isDev && livereload('public/'),
+    isDev && livereload('public'),
     !isDev && terser(),
   ],
   output: {
