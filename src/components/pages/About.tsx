@@ -1,4 +1,4 @@
-import { Navbar } from '../util/Navbar/Navbar';
+import { Navbar } from '../util/navbar/Navbar';
 import { Container } from '../util/Container';
 
 export const About = () => {
@@ -7,7 +7,7 @@ export const About = () => {
       <Navbar />
       <Container>
         <img
-          className='mt-5 border-slate-500 border'
+          className='mt-5 border-black border'
           src="./assets/img/harold.jpg"
           alt="Harold"
         />

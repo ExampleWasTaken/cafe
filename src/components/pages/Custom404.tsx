@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { Button } from '../util/Button';
-import { Container } from '../util/Container';
-import { Navbar } from '../util/Navbar/Navbar';
+import { Navbar } from '../util/navbar/Navbar';
 
 export const Custom404 = () => {
 
