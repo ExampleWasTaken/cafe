@@ -1,7 +1,7 @@
 import { HashRouter, Route, Routes } from 'react-router-dom';
-import { Custom404 } from '../Custom404';
-import { Home } from '../Home';
-import { Menu } from '../Menu';
+import { Custom404 } from '../404/Custom404';
+import { About } from '../about/About';
+import { Home } from '../home/Home';
 
 export const App = () => {
   return (
@@ -12,8 +12,8 @@ export const App = () => {
           element={<Home />}
         />
         <Route
-          path="/menu"
-          element={<Menu />}
+          path="/about"
+          element={<About />}
         />
         <Route
           path="*"
