@@ -1,6 +1,6 @@
 import { Logo } from './Logo';
 import { NavbarItem } from './NavbarItem';
-import { FiMenu, FiXCircle } from 'react-icons/fi';
+import { TbMenu2, TbX } from 'react-icons/tb';
 import { useState } from 'react';
 
 export const MobileNav = () => {
@@ -25,10 +25,10 @@ export const MobileNav = () => {
               onClick={closeHandler}
             >
               <Logo />
-              <FiXCircle
+              <TbX
                 fill='white'
                 size={29}
-                className="cursor-pointer"
+                className="cursor-pointer text-white"
                 onClick={closeHandler}
               />
             </div>
@@ -56,7 +56,7 @@ export const MobileNav = () => {
         </div>
       ) : (
         <div className="">
-          <FiMenu
+          <TbMenu2
             fill='black'
             size={29}
             className="cursor-pointer"
