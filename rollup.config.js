@@ -53,4 +53,7 @@ export default {
     name: 'cafe',
     sourcemap: sourcemap,
   },
+  onwarn: (warning) => {
+    if (warning.code === 'THIS_IS_UNDEFINED') return;
+  },
 };
