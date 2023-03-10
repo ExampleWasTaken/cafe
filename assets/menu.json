@@ -1,0 +1,25 @@
+{
+  "menu": [
+    {
+      "id": 0,
+      "name": "YumYum",
+      "description": "Verschiedene Varianten verfügbar.",
+      "isVegetarian": false,
+      "isVegan": false,
+      "price": "1,50"
+    },
+    {
+      "id": 1,
+      "name": "Schokokuchen selbstgemacht",
+      "isVegetarian": true,
+      "isVegan": false,
+      "price": "1,50"
+    },
+    {
+      "id": 2,
+      "name": "Getränke",
+      "description": "Kaffee, Mate, Wasser, etc.",
+      "price": "1,50"
+    }
+  ]
+}

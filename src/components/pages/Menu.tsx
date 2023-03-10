@@ -1,11 +1,12 @@
+import { MenuList } from '../menu/MenuList';
 import { Footer } from '../util/footer/Footer';
 import { Navbar } from '../util/navbar/Navbar';
 
-export const Home = () => {
+export const Menu = () => {
   return (
     <>
       <Navbar />
-
+      <MenuList />
       <Footer />
     </>
   );
