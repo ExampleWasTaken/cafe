@@ -7,7 +7,6 @@ export const Footer = () => {
         name="SchülerCAFÉ Havelhöhe"
         street="Neukladower Allee 1"
         code="14089 Berlin"
-        phone="+49 17645645885"
         email="max.mustermann@gmail.com"
       />
     </div>
