@@ -42,12 +42,12 @@ export const MobileNav = () => {
                 className='py-1'
               />
               <NavbarItem
-                name="Menu"
+                name="Menü"
                 link="/menu"
                 className="py-1"
               />
               <NavbarItem
-                name="About"
+                name="Über uns"
                 link="/About"
                 className='py-1'
               />
